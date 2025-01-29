@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  async getInfo() {
+  async getUserInfo() {
     const data = await this.appService.getUserInfo();
     return {
       statusCode: HttpStatus.OK,
