@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   async getUserInfo() {
     return {
-      email: 'mercydanke@example.com',
+      email: 'mercydanke@gmail.com',
       current_datetime: new Date().toISOString(),
       github_url: 'https://github.com/mercyio/hng-0',
     };
