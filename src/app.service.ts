@@ -6,7 +6,7 @@ export class AppService {
     return {
       email: 'mercydanke@example.com',
       current_datetime: new Date().toISOString(),
-      github_url: 'https://github.com/yourusername/your-repo',
+      github_url: 'https://github.com/mercyio/hng-0',
     };
   }
 }
