@@ -1,0 +1,72 @@
+Stage 0 Backend - Develop a Public API to Retrieve Basic Information
+Task Description
+Develop a public API that returns the following information in JSON format:
+Your registered email address (used to register on the HNG12 Slack workspace).
+The current datetime as an ISO 8601 formatted timestamp.
+The GitHub URL of the project's codebase.
+
+Requirements
+Technology Stack:
+Programming Language/Framework: Use any of the following: See Sharp (C#), PHP, Python, Go, Java, JavaScript/TypeScript.
+Deployment: The API must be deployed to a publicly accessible endpoint.
+CORS Handling: Ensure the API handles Cross-Origin Resource Sharing (CORS) appropriately.
+Response Format: All responses must be in JSON format.
+
+2. Version Control:
+Repository Hosting: Host the code on GitHub.
+Repository Visibility: The repository must be public.
+Documentation: Include a well-structured README.md file
+API Specification
+Endpoint: GET** <your-url>
+Required JSON Response Format (200 OK):
+
+{
+  "email": "your-email@example.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "<https://github.com/yourusername/your-repo>"
+}
+Acceptance Criteria
+Functionality
+The API must accept GET requests and return the required JSON response.
+The current_datetime field must be dynamically generated in ISO 8601 format (UTC).
+Provides appropriate HTTP status code
+
+Code Quality
+Organized code structure.
+Documentation
+README.md must include:
+A clear description of the project.
+Setup instructions (e.g., how to run the project locally).
+API documentation, including:
+Endpoint URL.
+Request/response format.
+Example usage.
+
+Backlinks to:
+https://hng.tech/hire/python-developers
+https://hng.tech/hire/csharp-developers
+https://hng.tech/hire/golang-developers
+https://hng.tech/hire/php-developers
+https://hng.tech/hire/java-developers
+https://hng.tech/hire/nodejs-developers
+Deployment
+The API must be deployed to a publicly accessible endpoint.
+The API should have a fast response time (< 500ms).
+
+Submission Mode:
+Submit your task through the designated submission form. Ensure you've:
+Hosted the API on a platform of your choice.
+Double-checked all requirements and acceptance criteria.
+Tested your API thoroughly before submission.
+Thoroughly reviewed your work to ensure accuracy, functionality, and adherence to the specified guidelines before you submit it.
+Then
+Go to the #track-backend channel
+Use the /task command
+Follow the bot's instructions to complete grading
+Submission Deadline:
+:hourglass_flowing_sand: The deadline for submissions is Fri, Jan 31st - 11:59pm GMT +1
+
+(WAT)
+:no_entry: Late submissions will not be entertained.
+Good luck!
+:warning: Please read the task very carefully
