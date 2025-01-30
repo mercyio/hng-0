@@ -73,10 +73,12 @@ curl `http://localhost:3000`
 Using Postman
 Open Postman
 Create a new GET request
-Enter URL: `http://localhost:3000`
-Make sure your code is running
+Enter URL: `http://localhost:3000` or  `https://hng-0-xrzm.onrender.com/`
+Make sure your code is running if you are using the localhost url
 Click Send
 View the JSON response
+
+OR
 
 ### Example Response
 
