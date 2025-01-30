@@ -55,27 +55,27 @@ Your backend server should now be running.
 ## API Documentation
 
 ### Endpoint
-Production: GET/`https://hng-0-xrzm.onrender.com`
-Local: GET/`http://localhost:3000`
+Production: GET/ https://hng-0-xrzm.onrender.com
+Local: GET/ http://localhost:3000
 
 ### Base URL
 The API will be running at:
-Production: `https://hng-0-xrzm.onrender.com`
-Local: `http://localhost:3000`
+Production: https://hng-0-xrzm.onrender.com
+Local: http://localhost:3000
 
 ### Example Request 
 Using Browser
-local: Simply visit `http://localhost:3000` in your web browser
+local: Simply visit http://localhost:3000 in your web browser
 or
-production: `https://hng-0-xrzm.onrender.com/`
+production: https://hng-0-xrzm.onrender.com/
 
 Using cURL
-curl `http://localhost:3000`
+curl http://localhost:3000
 
 Using Postman
 Open Postman
 Create a new GET request
-Enter URL: `http://localhost:3000` or  `https://hng-0-xrzm.onrender.com/`
+Enter URL: http://localhost:3000 or  https://hng-0-xrzm.onrender.com/
 Make sure your code is running if you are using the localhost url
 Click Send
 View the JSON response
@@ -85,12 +85,9 @@ View the JSON response
 
 ```json
 {
-  "statusCode": 200,
-  "data": {
     "email": "mercydanke@gmail.com",
     "current_datetime": "2023-09-08T12:34:56Z",
     "github_url": "https://github.com/mercyio/hng-0"
-  }
 }
 
 
