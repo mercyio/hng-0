@@ -1,46 +1,43 @@
 Stage 0 Backend - Develop a Public API to Retrieve Basic Information
-Task Description
-Develop a public API that returns the following information in JSON format:
-Your registered email address (used to register on the HNG12 Slack workspace).
-The current datetime as an ISO 8601 formatted timestamp.
-The GitHub URL of the project's codebase.
 
-Requirements
-Technology Stack:
-Programming Language/Framework: Use any of the following: See Sharp (C#), PHP, Python, Go, Java, JavaScript/TypeScript.
-Deployment: The API must be deployed to a publicly accessible endpoint.
-CORS Handling: Ensure the API handles Cross-Origin Resource Sharing (CORS) appropriately.
-Response Format: All responses must be in JSON format.
+1.  Develop a public API that returns the following information in JSON format: 
+        Your registered email address (used to register on the HNG12 Slack workspace).(done)
+        The current datetime as an ISO 8601 formatted timestamp.(done)
+        The GitHub URL of the project's codebase.(done)
 
-2. Version Control:
-Repository Hosting: Host the code on GitHub.
-Repository Visibility: The repository must be public.
-Documentation: Include a well-structured README.md file
-API Specification
-Endpoint: GET** <your-url>
-Required JSON Response Format (200 OK):
+
+2.  Deployment: The API must be deployed to a publicly accessible endpoint.
+3.  CORS Handling: Ensure the API handles Cross-Origin Resource Sharing (CORS) appropriately.(done)
+4.  Response Format: All responses must be in JSON format.(done)
+
+5.  Repository Hosting: Host the code on GitHub.
+6.  Repository Visibility: The repository must be public.
+7.  Documentation: Include a well-structured README.md file
+
+8.  Endpoint: GET** <your-url>(done)
+9.  Required JSON Response Format (200 OK): (done)
 
 {
   "email": "your-email@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "<https://github.com/yourusername/your-repo>"
 }
-Acceptance Criteria
-Functionality
-The API must accept GET requests and return the required JSON response.
-The current_datetime field must be dynamically generated in ISO 8601 format (UTC).
-Provides appropriate HTTP status code
 
-Code Quality
-Organized code structure.
-Documentation
-README.md must include:
-A clear description of the project.
-Setup instructions (e.g., how to run the project locally).
-API documentation, including:
-Endpoint URL.
-Request/response format.
-Example usage.
+
+10. The API must accept GET requests and return the required JSON response.(done)
+11. The current_datetime field must be dynamically generated in ISO 8601 format (UTC).(done)
+12. Provides appropriate HTTP status code (done)
+
+
+13. Organized code structure. (done)
+
+14. README.md must include:
+        A clear description of the project. (done)
+        Setup instructions (e.g., how to run the project locally).(done)
+        API documentation, including:
+        Endpoint URL. (done)
+        Request/response format. (done)
+        Example usage. (done)
 
 Backlinks to:
 https://hng.tech/hire/python-developers
@@ -49,9 +46,10 @@ https://hng.tech/hire/golang-developers
 https://hng.tech/hire/php-developers
 https://hng.tech/hire/java-developers
 https://hng.tech/hire/nodejs-developers
+
 Deployment
-The API must be deployed to a publicly accessible endpoint.
-The API should have a fast response time (< 500ms).
+15. The API must be deployed to a publicly accessible endpoint.
+16. The API should have a fast response time (< 500ms).
 
 Submission Mode:
 Submit your task through the designated submission form. Ensure you've:
