@@ -53,17 +53,19 @@ Your backend server should now be running.
 ## API Documentation
 
 ### Endpoint
-Production: GET/`https://my-deployed-url.com`
+Production: GET/`https://hng-0-xrzm.onrender.com`
 Local: GET/`http://localhost:3000`
 
 ### Base URL
 The API will be running at:
-Production: `https://my-deployed-url.com`
+Production: `https://hng-0-xrzm.onrender.com`
 Local: `http://localhost:3000`
 
 ### Example Request 
 Using Browser
-Simply visit `http://localhost:3000` in your web browser
+local: Simply visit `http://localhost:3000` in your web browser
+or
+production: `https://hng-0-xrzm.onrender.com/`
 
 Using cURL
 curl `http://localhost:3000`
