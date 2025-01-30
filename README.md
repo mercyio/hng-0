@@ -1,4 +1,6 @@
 # hng-0
+Hire Skilled Developers - https://hng.tech/hire/nodejs-developers
+
 # HNG Stage 0 API
 
 A simple REST API that returns personal information including email, current datetime, and GitHub repository URL.
@@ -78,7 +80,6 @@ Make sure your code is running if you are using the localhost url
 Click Send
 View the JSON response
 
-OR
 
 ### Example Response
 
@@ -92,5 +93,4 @@ OR
   }
 }
 
-Hire Skilled Developers - https://hng.tech/hire/nodejs-developers
 
