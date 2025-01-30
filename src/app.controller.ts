@@ -1,4 +1,4 @@
-import { Controller, Get, HttpStatus } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -7,10 +7,6 @@ export class AppController {
 
   @Get()
   async getUserInfo() {
-    const data = await this.appService.getUserInfo();
-    return {
-      statusCode: HttpStatus.OK,
-      data,
-    };
+    return await this.appService.getUserInfo();
   }
 }
